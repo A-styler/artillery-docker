@@ -23,6 +23,7 @@ Run a container:
 docker run -it \
            --rm \
            -v ~/artillery-docker/config.yaml:/artillery/config.yaml \
+           --name artillery \
            artillery \
            run config.yaml
 ```
